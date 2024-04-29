@@ -1,0 +1,162 @@
+.main-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-container {
+  background-color: #131213;
+  width: 35%;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left-heading {
+  color: #f3aa4e;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.label-text {
+  color: #f1f5f9;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+  margin-top: 20px;
+  align-self: flex-start;
+}
+
+.user-input {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-width: 0px;
+  width: 100%;
+  padding: 15px;
+  color: #64748b;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  outline: none;
+}
+
+.option {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-top: 5px;
+}
+
+.add-button {
+  background-color: #f3aa4e;
+  border-radius: 5px;
+  border-width: 0px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.right-container {
+  background-color: #000000;
+  width: 65%;
+  height: 100vh;
+  padding: 20px;
+}
+
+.right-heading {
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+
+.tags-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
+
+.tag-button {
+  background-color: transparent;
+  border: solid 1px #f3aa4e;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.tasks-container {
+  padding-left: 0px;
+  width: 100%;
+}
+
+.task-item {
+  background-color: #1a171d;
+  padding: 15px;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.tag {
+  color: #1a171d;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  background-color: #f3aa4e;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.no-task-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.no-task-text {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
